@@ -1,9 +1,11 @@
-#banner {
+.jumbotron {
     background-image: url("assets/backgrounds/hero.jpg");
-    margin-top: margin;
-    padding: 0%;
+    margin-bottom:0px;
     height: 800px;
     
+}
+#banner{
+    text-align: center;
 }
 
 #logo {
@@ -17,6 +19,12 @@
     margin: auto;
     padding-top: 1cm;
     padding-right: 0.8cm;
+}
+#main{
+    padding-bottom: 100px;
+    padding-left:200px;
+    padding-right:200px;
+    padding-top: 50px;
 }
 
 
@@ -38,7 +46,8 @@
     height: 200px;
 }
 #selectbar {
-    background-color: rgb(220, 240, 147);
+    background-color:#c6bfa5;
+    padding: 50px;
 }
 #aboutus {
     background-image: url("assets/backgrounds/about.jpg");
@@ -55,8 +64,38 @@
     height:400px;
     color:white;
 }
-.grid {
+.grid-social {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     grid-gap: 10px;
+}
+.grid-links {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 5px;
+}
+.span-col-4{grid-column: span 4 / auto;}
+.panel{
+    text-align: center;
+}
+
+.btn{
+    background-color: #661a00;
+    padding: 20px;
+    border:none;
+}
+.footer-left{
+    padding-top: 20px;
+}
+
+.footer-center{
+    padding-top: 20px;
+}
+
+.footer-right{
+    padding-top: 50px;
+}
+#footer{
+    padding-right:100px ;
+    padding-left: 100px;
 }

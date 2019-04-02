@@ -10,6 +10,7 @@
 </head>
 
 <body>
+    <div class="jumbotron">
     <div class="container" id="banner">
         <div class="row">
             <div class="col-md-9">
@@ -42,22 +43,27 @@
             </div>
         </div>
     </div>
+</div>
     
-    <div class="container" id="selectbar">
+    <div class="container-fluid" id="selectbar">
             <div class="row">
-                <div class="col-md-1" id="men-checkbox">
-                    <p><img id="logo" src="assets/click/checked-checkbox.png" alt="Men">MEN</p>
+                
+                <div class="col-lg-9">
+                        <div class="col-md-1" id="men-checkbox">
+                                <input type="checkbox" name="vehicle1" value="Bike"> I have a bike<br>
+                            
+                                
+                           
+                            </div>
+                            <div class="col-md-1" id="women-checkbox">
+                                    <input type="checkbox" name="vehicle3" value="Boat" checked> I have a boat
+                            </div>
+                            <div class="col-md-1" id="children-checkbox">
+                                    <input type="checkbox" name="vehicle2" value="Car"> I have a car
+                            </div>
                 </div>
-                <div class="col-md-1" id="women-checkbox">
-                    <p><img id="logo" src="assets/click/checked-checkbox.png" alt="Men">WOMEN</p>
-                </div>
-                <div class="col-md-1" id="children-checkbox">
-                    <p><img id="logo" src="assets/click/unchecked-checkbox.png" alt="Men">CHILDREN</p>
-                </div>
-                <div class="col-md-6">
-                </div>
-                <div class="col-md-3">
-                    <button class="danger" style="">SEE ALL PRODUCTS</button>
+                <div class="col-lg-3">
+                    <a href="#" class="btn btn-danger" >SEE ALL PRODUCTS</a>
                 </div>
 
             
@@ -65,7 +71,7 @@
     </div>
 
 
-    <div class="container" id="main">
+    <div class="container-fluid" id="main">
         <div class="row">
             <div class="col-md-4">
                 <div class="panel panel-default">
@@ -163,7 +169,7 @@
         </div>
     </div>
 
-    <div class="container" id="aboutus">
+    <div class="container-fluid" id="aboutus">
             <div class="row">
                 <div class="col-md-12">
                    <h1>Testing</h1>
@@ -171,7 +177,7 @@
             </div>
     </div>
 
-    <div class="container" id="promo">
+    <div class="container-fluid" id="promo">
             <div class="row">
                 <div class="col-md-1" id="twitter_bird">
                    <img src="assets/social_icons/twitter_bird.png" alt="">
@@ -183,17 +189,17 @@
             </div>
     </div>
 
-    <div class="container" id="footer">
+    <div class="container-fluid" id="footer">
             <div class="row">
-                <div class="col-md-4">
+                <div class="col-md-4 footer-left">
                    <h1>YOLOMY </h2>
                    <h4>WE ARE YOLOMY- WE UNDERSTAND </h4>
                    <h4>FASHION AND STYLE. WE CRAFT OUR</h4>
                    <h4> PRODUCTS WITH LOVE AND DELIGENCE </h4>
                 </div>
-                <div class="col-md-4">
+                <div class="col-md-4 footer-center">
                         <div><h2>We are Social</h2> </div>             
-                        <div class="grid">
+                        <div class="grid-social">
                                 <div><img src="assets/social_icons/g_plus.png" alt="googleplus"></div>
                                 <div><img src="assets/social_icons/facebook.png" alt="facebook"></div>
                                 <div><img src="assets/social_icons/you_tube.png" alt="you_tube"></div>
@@ -202,49 +208,18 @@
                                 <div><img src="assets/social_icons/flickr.png" alt="flicker"></div>
                                 <div><img src="assets/social_icons/twitter.png" alt="twitter"></div>
                                 <div><img src="assets/social_icons/pinterest.png" alt="pinterest"></div>
-                              </div>   
-                    
-                    <!-- <div class="row">
-                            <div >
-                                   <p>>WE ARE SOCIAL</p>
-                            </div>
-                         </div>
-                    
-                        <div class="row">
-                            <div class="col-md-1">
-                                <img src="assets/social_icons/g_plus.png" alt="googleplus">
-                            </div>
-                            <div class="col-md-1">
-                                 <img src="assets/social_icons/facebook.png" alt="facebook">                               
-                            </div>
-                            <div class="col-md-1">
-                               <img src="assets/social_icons/you_tube.png" alt="you_tube">
-                            </div>
-                            <div class="col-md-1">
-                               <img src="assets/social_icons/skype.png" alt="stumble">
-                            </div>
                         </div>
-
-                        <div class="row">
-                            <div class="col-md-1">
-                                <img src="assets/social_icons/skype.png" alt="skype">
-                            </div>
-                            <div class="col-md-1">
-                                  <img src="assets/social_icons/flickr.png" alt="flicker">                              
-                            </div>
-                            <div class="col-md-1">
-                               <img src="assets/social_icons/twitter.png" alt="twitter">
-                            </div>
-                            <div class="col-md-1">
-                               <img src="assets/social_icons/pinterest.png" alt="pinterest">
-                            </div>
-                        </div> -->
-
-                        
+                        <div><h4 id="copyright">COPYRIGHT 2015. YOLOMY INC </h4></div>  
 
                 </div>
-                <div class="col-md-4">
-                   
+                <div class="col-md-4 footer-right">
+                        <div class="grid-links">
+                                <div class="border"><h4>CREDITS</h4></div>
+                                <div class="border"><h4>PRIVACY</h4></div>
+                                <div class="border"><h4>ABOUT</h4></div>
+                                <div class="border"><h4>CONTACT</h4></div>
+                                <div class="span-col-4"><h3>Yolomy: We Mean Fashion</h3></div>
+                              </div>
                 </div>
             
             </div>
