@@ -9,16 +9,54 @@
 #logo {
     margin: auto;
     padding-top: 1cm;
-
+    padding-left: 1cm;
+    
 }
 
-#slogan {
-    text-emphasis: bold;
-    text-align: center;
+#shop {
+    margin: auto;
+    padding-top: 1cm;
+    padding-right: 0.8cm;
+}
+
+
+#topmenu {
+    padding-top: 1cm;
+    color: white;
+}
+#slogan{
+    padding-top: 1cm;
+    color: white;
+    height: 200px
+    
+}
+#slogan2 {
+    height:200px;
     color:white;
 }
-h1 {
-    color: white;
-    text-align: center;
+#click {
+    height: 200px;
 }
-
+#selectbar {
+    background-color: rgb(220, 240, 147);
+}
+#aboutus {
+    background-image: url("assets/backgrounds/about.jpg");
+    height:402px;
+}
+#promo {
+    background-color: #515050;
+    height:80px;
+    text-align: justify;
+    color: whitesmoke;
+}
+#footer{
+    background-color:  #3E3A3A ;
+    height:400px;
+    color:white;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+}
