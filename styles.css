@@ -99,3 +99,13 @@
     padding-right:100px ;
     padding-left: 100px;
 }
+#twitter {
+    display:float;
+    float: right;
+
+}
+#aboutus {
+    text-align: center;
+    border: solid; 
+    background-color:#c6bfa5;
+}
